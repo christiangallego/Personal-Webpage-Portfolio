@@ -21,14 +21,12 @@ app.set("views", "./views");
 app.set("view engine", "ejs");
 
 // GET method route to main page
-
 app.get("/", (req, res) => {
     res.render("index");
 });
 
 // POST method for contact form submittal
 // sends the thanks page as a response and fires Twilio's API
-
 app.post('/thanks',(req, res) => {
     var userInfo = {
         name: req.body.name,
