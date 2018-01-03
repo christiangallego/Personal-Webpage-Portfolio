@@ -1,0 +1,424 @@
+/***********
+Navigation
+***********/
+
+body {
+  color: gray;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.main-header {
+    padding: .5em 0;
+    position: absolute;
+    width: 100%;
+    font-size: 1.5em;
+    font-family: "Oswald";
+  }
+
+  .main-header-links {
+    text-align: center;
+    position: relative;
+    font-size: 1em;
+  }
+
+  a:hover {
+  color: orange;
+  opacity: 1;
+  }
+
+  a{
+    color: black;
+    margin: 0 .60em;
+    opacity: .5;
+  }
+  
+  .header {
+    padding-top: 14.2em;
+    max-height: 100vh;
+    background:  
+      linear-gradient(0deg,lightslategrey, transparent),
+      url("http://smartfreelancer.net/wp-content/uploads/2017/05/freelance_productivity_social.png.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .header-tagline {
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+    font-family: 'Oswald', serif;
+  }
+  #tagline-subheading {
+    font-size: 1.4em;
+    color:white;
+    opacity: .90;
+    font-family: 'Oswald', serif;
+    font-weight: 300;
+  }
+
+  .arrow {
+    max-width: 60px;
+    line-height: .0625em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: white;
+  }
+
+
+
+ /**************
+ Timeline
+ ***************/ 
+ 
+ .about {
+   padding: 0;
+   margin: 0;
+   font-family: "Oswald", sans-serif;
+   position: relative;
+ }
+
+ .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -1.5em;
+ }
+
+ /* about logos */
+ .images {
+   font-size: 4.5em;
+ }
+
+ #marinecorps, 
+ #k9
+ {
+  width: 1em;
+  height: auto;
+  margin-left: 0 1px 0 2em;
+ }
+ 
+
+ #national {
+  width: 1.5em;
+  height: auto;
+  margin: 0 5px 0 .25em;  
+ }
+
+ 
+ #origin {
+  width: 2em;
+  height: auto ;
+  margin: 0 5px 0 .25em;  
+ }
+
+ #microsoft {
+  width: 1em;
+  height: .85em ;
+  margin: 0 .45em;  
+ }
+
+ .timeline {
+   padding: 2.5em 0px;
+   max-width: 75%;
+   margin-left: 10%;
+   margin-bottom: 2,5em;
+ }
+/*  
+ .timeline:before {
+   content: "";
+   position: absolute;
+   top: 950px;
+   left: 125x;
+   width: 3px;
+   height: 145%;
+   background: #c0392b;
+ } */
+ 
+ .timeline .column {
+   margin: 2em 2em 2em 5.5em;
+ }
+ 
+ .timeline .column .title h1 {
+   font-size: 4em;
+   color: rgba(0,0,0,0.1);
+   font-family: serif;
+   letter-spacing: 3px;
+ }
+
+ .timeline .column .title h2 {
+   margin-top: -25px;
+   font-size: 1.5em;
+ }
+ 
+ .timeline .column .description p {
+   font-size: 1.2em;
+   line-height: 1.1em;
+   margin-left: 1em;
+   margin-top: 10px;
+   font-family: sans-serif;
+ }
+ 
+ .timeline .column .description {
+   border-left: 1px solid #000;
+ }
+ 
+ .main {
+   max-width: 75%;
+   margin-left: 10%;
+   margin-top: 80px;
+ }
+ 
+ .main h1 {
+   font-size: 2.5em;
+   line-height: 60px;
+   margin-bottom: -40px;
+ }
+ 
+ .main p {
+   font-size: 13px;
+   line-height: 20px;
+   font-family: sans-serif;
+   text-align: right;
+ }
+
+ #section-h1{
+   font-family: serif;
+   font-size: 4.25em;
+   background-color:
+   rgba(255,255,255, 1) 40%, 
+   rgba(255,255,255, 0) 80%
+ }
+
+/**************
+ Portfolio
+***************/ 
+
+.image-wrapper{
+display: block
+}
+
+ .portfolio-wrapper {
+   width: 75%;
+   margin: auto;
+   margin-bottom: -5em;
+ }
+
+ .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ .sandiego {
+   margin-bottom: 3em;
+   margin-top: 7em;
+   max-width: 80%;
+   padding: 1em; 
+   height: auto;
+   box-shadow: 0px 0px 2px;
+   border-radius: 2px;
+   margin-right: 4em;
+ }
+ .todo {
+  margin-bottom: 3em;
+  margin-top: 7em;
+  max-width: 79.5%;
+  padding: 1em; 
+  height: auto;
+  box-shadow: 0px 0px 2px;
+  border-radius: 2px;
+ }
+
+ .personal {
+  margin-bottom: 3em;
+  margin-top: 7em;
+  margin-right: -32em;
+  max-width: 79.5%;
+  padding: 1em; 
+  height: auto;
+  box-shadow: 0px 0px 2px;
+  border-radius: 2px;
+ }
+
+ .media-body p {
+   font-size: 1.2em;
+   padding-right: 1em;
+   margin-bottom: 0%
+ }
+
+ /* .media-body-personal {
+   padding-right: 5em;
+ } */
+
+ .media-body h4 {
+   text-align: left;
+   color: orange;
+   font-size: 1.7em;
+ }
+
+/***************
+Contact Form
+****************/
+
+.main-contact{
+  padding-top: 1em;
+}
+ 
+ 
+.contact-wrapper{
+  display: flex;
+  align-items: center;
+  max-width: 75%;
+  margin: auto;
+  margin-bottom: 3em;
+  margin-top: 8em;
+} 
+ 
+
+.form-style-4{
+    width: 30em;
+    height: auto;
+    font-size: 16px;
+    background: #495C70;
+    padding: 2em 2em 1em 2em;
+    border: 5px solid #53687E;
+}
+.form-style-4 h1 {
+  color: white;
+  margin: 0 0 1em;
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #fff;
+
+}
+.form-style-4 label {
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-4 label > span{
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+.form-style-4 input[type=text],
+.form-style-4 input[type=email] 
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+.form-style-4 textarea{
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    overflow: hidden;
+    resize:none;
+    height:20px;
+}
+
+.form-style-4 textarea:focus, 
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+    border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+    background: #576E86;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #A8BACE;
+    margin-top: .5em;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+background: #394D61;
+}
+
+/************
+Contact Photo
+************/
+
+
+.personal-photo-section{
+  border: 1px solid black;
+  box-shadow: 8px 8px 4px #888888;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  display: flex;
+
+}
+
+.personalphoto{
+  max-height: 15em;
+}
+
+.profile-photo-text{
+  color: darkslategray;
+  padding: 1em;
+  padding-right: 1em;
+  font-weight: 1px;
+  font-size: 1.2em;
+}
+
+/*************
+  Footer
+  *************/
+
+  footer{
+    font-size: 1em;
+    text-align: center;
+    clear: both;
+    padding-top: 10px;
+    color: #ccc;
+  }
+  .social-icon {
+    width: 3em;
+    height: 3em;
+    margin: 0 5px;
+  }
+
+  .social-icon-link {
+    opacity: 1;
+  }
+
+/****************
+Thanks Page
+*****************/
+
+.thanks-wrapper {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.checkmark {
+  height: 400px;
+  width: auto;
+}
+
+.goback-link {
+  color: blue;
+  font-size: 1.25em;
+  margin-top: 10px;
+}

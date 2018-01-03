@@ -1,0 +1,201 @@
+<html>
+
+<head>
+    <title>
+        Christian's Portfolio
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <header class="main-header">
+            <div class="main-header-links">
+                <a href="/">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+    </header>
+
+    <div class="header">
+        <div class="header-tagline">
+            <h4 id="tagline-subheading"> christian gallego | web developer </h4>
+            <h1>
+                <span>LET'S</span>
+                <span> MAKE GREAT</span>
+                <span>THINGS</span>
+            </h1>
+            <img class="arrow" src="img/arrow.svg" alt="Down arrow">
+        </div>
+    </div>
+    <!--end of navigation-->
+
+    <!--start of main body & timeline-->
+    <div id="wrapper">
+
+        <div class="main">
+            <h1 id="section-h1">About</h1>
+        </div>
+
+        <div class="timeline">
+            <div class="column">
+                <div class="title">
+                    <h1> 2008</h1>
+                    <div class="images">
+                        <img id="marinecorps" src="/img/USMC.png">
+                        <img id="k9" src="/img/k9.png">
+                    </div>
+                </div>
+                <h2> Operations Manager with multiple high-security assignments </h2>
+                <div class="description">
+                    <p class="media-body p"> Swissmetro bol/je švajčiarsky vactrain projekt cez 100 km dlhý nízkotlakový tunel. Pomocou lineárnych
+                        elektromotorov mala rýchlosť súpravy presahovať 520 km/h. Na rozdiel od iných svetových vactrain
+                        projektov, plánovali Švajčiari vybudovať tunel pre štandardne veľké vlakové súpravy. Tunel teda musel
+                        mať priemer 5 až 6 m. Iniciátorom projektu bol Rodolphe Nieth, ktorý pracoval ako inžinier pre Švajčiarske
+                        spolkové dráhy. Projekt bol oficiálne ukončený v roku 2009. </p>
+                </div>
+            </div>
+
+
+            <div class="column">
+                <div class="title">
+                    <h1> 2013</h1>
+                    <div class="images">
+                        <img id="national" src="/img/national.jpg">
+                    </div>
+                </div>
+                <h2> Sales professional with a Bachelor's in Business Administration </h2>
+                <div class="description">
+                    <p class="media-body p"> Swissmetro bol/je švajčiarsky vactrain projekt cez 100 km dlhý nízkotlakový tunel. Pomocou lineárnych
+                        elektromotorov mala rýchlosť súpravy presahovať 520 km/h. Na rozdiel od iných svetových vactrain
+                        projektov, plánovali Švajčiari vybudovať tunel pre štandardne veľké vlakové súpravy. Tunel teda musel
+                        mať priemer 5 až 6 m. Iniciátorom projektu bol Rodolphe Nieth, ktorý pracoval ako inžinier pre Švajčiarske
+                        spolkové dráhy. Projekt bol oficiálne ukončený v roku 2009. </p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="title">
+                    <h1> 2018 </h1>
+                    <div class="images">
+                        <img id="microsoft" src="/img/microsoft.png">
+                    </div>
+                </div>
+                <h2> C# & ASP.NET - Microsoft Software and Systems Academy</h2>
+                <div class="description">
+                    <p class="media-body p"> Enthusiastic Microsoft Software and Systems Academy Student.  </p>
+                </div>
+            </div>
+        </div>
+         <!--end of timeline-->
+
+         <!--start of portfolio-->
+
+        <div class="main">
+            <h1 id="section-h1">Portfolio</h1>
+        </div>
+
+        <div class="portfolio-wrapper">
+            <div class="wrapper">
+                <a class="image-wrapper" href="https://floating-gorge-44922.herokuapp.com/" target="blank">
+                    <img class="sandiego" src="/img/api.png" alt="api project">
+                </a>
+                <div class="media-body">
+                    <h4>San Diego Beach Finder</h4>
+                    <p>
+                        Interactive beach and surf spot finder using CSS, React, Google Maps and Spitcast.com API endpoints.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-wrapper">
+            <div class="wrapper">
+                <a class="image-wrapper" href="https://cg-vstda.herokuapp.com/" target="blank">
+                    <img class="todo" src="/img/todo.PNG" alt="to-do app">
+                </a>
+                <div class="media-body">
+                    <h4>To-do App</h4>
+                    <p>
+                        An easy to use task and to-do manager with save and delete functionality. Built with React and Boostrap.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-wrapper">
+            <div class="wrapper">
+                <a class="image-wrapper" href="https://my-personal-portfolio-55.herokuapp.com/" target="blank">
+                    <img class="personal" src="/img/portfolio.png" alt="personal portfolio">
+                </a>
+                <div class="media-body media-body-personal">
+                    <h4>Personal Portfolio</h4>
+                    <p class = "media-body-personal">
+                        My first personal website project built with CSS, EJS, and Twilio API.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+         <!--end of portfolio-->
+
+
+        <article class="article">
+            <div class="main main-contact">
+                <h1 id="section-h1">Contact</h1>
+            </div>
+        </article>
+
+        <!--start of contact section-->
+        <div class="contact-wrapper wrapper" id="contact">
+
+            <form class="form-style-4" action="/thanks" method="post">
+                <h1>Get in touch</h1>
+                <label for="name">
+                    <span>Enter Your Name</span>
+                    <input type="text" name="name" required="true" />
+                </label>
+                <label for="email">
+                    <span>Email Address</span>
+                    <input type="text" name="email" required="true" />
+                </label>
+                <label for="message">
+                    <span>Message</span>
+                    <textarea name="message" onkeyup="adjust_textarea(this)" required="true"></textarea>
+                </label>
+                <label>
+                    <span>&nbsp;</span>
+                    <input type="submit" value="Send message" />
+                </label>
+            </form>
+        <!--end of contact section-->
+
+            <div class="personal-photo-section">
+                <p class="profile-photo-text"> Hi there, I'm Christian!
+                    <br> Thanks for visiting my
+                    <br> website. Please let me
+                    <br> know if I can do anything
+                    <br> to help you.
+                    <br>
+                    <br> Cheers!
+                </p>
+                <img class="personalphoto" src="img/gallego1.jpg" target="blank">
+            </div>
+        </div>
+    </div>
+    <!--end of main body section-->
+
+    <!--start of footer section-->
+    <footer>
+        <a class="social-icon-link" href="https://www.linkedin.com/in/christian-gallego-18200a68" target="blank">
+            <img src="img/linkedin-icon.png" class="social-icon">
+        </a>
+        <a class="social-icon-link" href="https://github.com/christiangallego" target="blank" />
+        <img src="img/GitHub-Mark.png" class="social-icon">
+        </a>
+        <p>Made by Christian Gallego</p>
+    </footer>
+
+</body>
+
+</html>
