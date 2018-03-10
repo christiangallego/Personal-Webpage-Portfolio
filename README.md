@@ -6,7 +6,7 @@ I'm starting out with a single page webpage with scroll functionality and a sepe
 
 ## Built With
 
-* Javascript Templating
+* JavasScript
 * Node.js
 * Express
 * HTML
