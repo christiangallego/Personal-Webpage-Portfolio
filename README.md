@@ -6,7 +6,7 @@ I'm starting out with a single page with scroll functionality with HTML and CSS.
 
 ## Built With
 
-* JavasScript
+* JavaScript
 * Express
 * HTML
 * CSS
