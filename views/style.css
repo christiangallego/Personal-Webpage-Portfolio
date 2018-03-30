@@ -222,7 +222,8 @@ display: block
  .todo {
   margin-bottom: 3em;
   margin-top: 7em;
-  max-width: 79.5%;
+  margin-right: 36em;
+  max-width: 81.5%;
   padding: 1em; 
   height: auto;
   box-shadow: 0px 0px 2px;
@@ -232,8 +233,8 @@ display: block
  .personal {
   margin-bottom: 3em;
   margin-top: 7em;
-  margin-right: -32em;
-  max-width: 79.5%;
+  margin-right: -25em;
+  max-width: 82.5%;
   padding: 1em; 
   height: auto;
   box-shadow: 0px 0px 2px;
